@@ -1,0 +1,103 @@
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+#container {
+    background-color: rgb(248, 248, 248);
+    height: 100%;
+    width: 100%;
+}
+
+#div1 {
+    background: linear-gradient(to right, rgb(140, 120, 209), rgb(198, 144, 206));
+    height: 30vh;
+    width: 100%;    
+}
+
+#div2 {
+    /* background-color: rgb(231, 237, 243); */
+    margin:auto;
+    margin-top: -70px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items:center;
+}
+
+.divgrid {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 240px;
+    margin: 13px 0px;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.button {
+    position: absolute;
+    top: 5px;
+    right: 10px; 
+}
+
+.divgrid button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+.user-info {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.user-info img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.user-info p {
+    font-weight: bold;
+}
+
+.user-folio {
+    background-color: rgba(247, 247, 247, 0.952);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.user-folio p {
+    font-weight: bold;
+}
+
+.user-potfolio1, .user-potfolio2 {
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.3; 
+}
+
+#container::after {
+    content: "";
+    display: block;
+    height: 100px;
+}
