@@ -1,1 +1,1 @@
-![Aperçu maquette](/assets/Fao.png)
+![Aperçu maquette](/assets/maquette.jpeg)
